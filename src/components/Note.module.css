@@ -1,0 +1,97 @@
+
+/* Container for the markdown content */
+.markdown {
+    max-width: 100%;
+    overflow-wrap: break-word;
+  }
+  
+  /* Headings */
+  .markdown h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1.5rem 0 1rem;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 0.5rem;
+  }
+  
+  .markdown h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.25rem 0 0.75rem;
+  }
+  
+  .markdown h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  /* Paragraphs */
+  .markdown p {
+    margin: 0.75rem 0;
+    line-height: 1.6;
+  }
+  
+  /* Lists */
+  .markdown ul, 
+  .markdown ol {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+  }
+  
+  .markdown li {
+    margin: 0.25rem 0;
+  }
+  
+  /* Links */
+  .markdown a {
+    color: #3b82f6;
+    text-decoration: underline;
+  }
+  
+  .markdown a:hover {
+    color: #2563eb;
+  }
+  
+  /* Code blocks */
+  .markdown pre {
+    background-color: #f8fafc;
+    border-radius: 0.375rem;
+    padding: 1rem;
+    margin: 0.75rem 0;
+    overflow-x: auto;
+  }
+  
+  .markdown code {
+    font-family: monospace;
+    background-color: #f8fafc;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.25rem;
+  }
+  
+  /* Blockquotes */
+  .markdown blockquote {
+    border-left: 4px solid #e2e8f0;
+    padding-left: 1rem;
+    margin: 0.75rem 0;
+    color: #64748b;
+  }
+  
+  /* Tables */
+  .markdown table {
+    border-collapse: collapse;
+    margin: 0.75rem 0;
+    width: 100%;
+  }
+  
+  .markdown th, 
+  .markdown td {
+    border: 1px solid #e2e8f0;
+    padding: 0.5rem;
+  }
+  
+  .markdown th {
+    background-color: #e4e4e4;
+    font-weight: bold;
+    text-align: left;
+  }
