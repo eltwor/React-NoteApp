@@ -1,12 +1,36 @@
-# React + Vite
+# 📝 React Markdown Notes App  
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)  
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css)  
+A clean note-taking app built with React, Markdown support, and Tailwind CSS. Create, view, and delete notes with real-time updates.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 **Live Demo:** https://eltwor.github.io/React-NoteApp/  
+✨ **Key Features:**  
+- **Markdown formatting** (bold, lists, tables) via `react-markdown` and `remark-gfm`
+- **Real-time sidebar** with `Array.map` rendering  
+- **Delete functionality** using `Array.filter` + prop drilling  
+- **Modern UI** with Tailwind CSS  
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack  
+- **Frontend:** React.js, Vite  
+- **Styling:** Tailwind CSS  
+- **Markdown:** `react-markdown`, `remark-gfm`  
+- **State Management:** React hooks (`useState`, `useRef`)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Getting Started  
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/eltwor/React-NoteApp.git
+2. Install dependencies:
+   ```bash
+   npm install
+3. Run the app:
+   ```bash
+   npm run dev
+# 🌟 Future Improvements
 
-## Expanding the ESLint configuration
+I'm actively working on:
+   * Note persistence (via localStorage or Firebase)
+   * Edit functionality (double-click to modify notes)
+   * Enhanced mobile responsiveness
+   * Tags/categories for better organization
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
